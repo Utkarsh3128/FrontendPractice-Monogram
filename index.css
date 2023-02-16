@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt&display=swap');
+@import 'animate.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Prompt', sans-serif;
+}
+
+#h1 {
+    color: #efc2b3 !important;
+}
+
+.navbar ul {
+    margin-left: auto !important;
+}
+
+.navbar a {
+    color: #efc2b3 !important;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 2px;
+}
+
+.navbar a:hover {
+    color: #ff8b68 !important;
+}
+
+#dropdown:hover {
+    color: hsla(0, 0%, 100%, .75) !important;
+}
+
+#dropdown::after {
+    border-bottom: 0;
+    border-left: .3em solid transparent;
+    border-right: .3em solid transparent;
+    border-top: .3em solid;
+    content: "";
+    display: inline-block;
+    margin-left: .255em;
+    vertical-align: .255em;
+}
+
+.hoverImg a:hover {
+    transition: transform .5s ease, opacity .25s ease;
+}
+
+.bgColor {
+    background-color: rgba(0, 0, 0, 0.6);
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+    position: absolute;
+    right: 0;
+    top: 0;
+    transition: background-color .3s ease-out;
+}
+
+.imgHover {
+    transition: 3s;
+}
+
+.inputEmail::placeholder{
+    font-size: 13.5px;
+    color: #f0efed;
+}
