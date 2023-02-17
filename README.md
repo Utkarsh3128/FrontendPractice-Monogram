@@ -2,7 +2,7 @@
 
 ### Desktop View
 
-![](images/desktop_view.png)
+![](images/desktop-view.png)
 
 ### Real Site
 [Monogram](https://monogramcc.com/shop/)
