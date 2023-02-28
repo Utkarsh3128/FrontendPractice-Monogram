@@ -33,5 +33,5 @@ function smoothScroll(target, duration) {
 var button1 = document.querySelector('.clickImg');
 
 button1.addEventListener('click', function () {
-  smoothScroll('#swipe', 1000);
+  smoothScroll('#swipe1', 1000);
 });
